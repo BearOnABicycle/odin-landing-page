@@ -48,11 +48,15 @@ header h1{
     background-color: #1F2937;
     color: white;
     padding: 0 25% 2.5%;
-    gap: 10%;
+    gap: 40px;
 }
 
 .hero-left{
     flex: 1 1 50%;
+}
+
+.hero-right{
+    flex: 1 0 50%;
 }
 
 .placeholder{
@@ -80,37 +84,35 @@ header h1{
     border: none;
 }
 
-.cards{
+.information{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1.5% 25%;
     gap: 10%;
+    padding-right: 25%;
+    padding-left: 25%;
 }
 
 .placeholder-card-container{
     display: flex;
     justify-content: space-between;
-    width: 75%;
     gap: 10%;
-
 }
 
-.cards h1{
+.information h1{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
 }
 
-
-.placeholder-square{
-    padding: 75px 75px;
-    border: solid;
-    border-color: #3882F6;
-    border-radius: 10px;
+.placeholder-card{
+    text-align: center;
 }
 
-.placeholder-card-container p{
-    text-align: center;
+.placeholder-square{
+    border: solid;
+    padding: 20% 20%;
+    border-color: #3882F6;
+    border-radius: 10px;
 }
