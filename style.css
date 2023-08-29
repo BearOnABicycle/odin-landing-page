@@ -79,3 +79,38 @@ header h1{
     border-radius: 8px;
     border: none;
 }
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5% 25%;
+    gap: 10%;
+}
+
+.placeholder-card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    gap: 10%;
+
+}
+
+.cards h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+
+.placeholder-square{
+    padding: 75px 75px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+.placeholder-card-container p{
+    text-align: center;
+}
