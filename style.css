@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -60,10 +61,14 @@ header h1{
 }
 
 .placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(102, 106, 122);
     color: white;
-    padding: 90px 75px;
-    flex: 0 0 auto;
+    height: 200px;
+    width: 500px;
+    flex-shrink: 0;
 }
 
 .hero h1{
@@ -112,7 +117,33 @@ header h1{
 
 .placeholder-square{
     border: solid;
-    padding: 20% 20%;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
     border-color: #3882F6;
     border-radius: 10px;
 }
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25%;
+    padding-left: 25%;
+    background-color: #E5E7EB;
+}
+
+.quote #quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote p{
+    align-self: flex-end;
+    font-size: 19px;
+    font-weight: bold;
+}
+
