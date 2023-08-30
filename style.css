@@ -130,8 +130,8 @@ header h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-right: 25%;
-    padding-left: 25%;
+    padding: 2.5% 25%;
+
     background-color: #E5E7EB;
 }
 
@@ -147,3 +147,47 @@ header h1{
     font-weight: bold;
 }
 
+.call-to-action{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 25%;
+}
+
+.cta-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#3882F6;
+    padding: 25pxpx 25px; 
+    gap: 139px;
+    height: 125px;
+    width: 975px;
+    border-radius: 10px;
+    color: white;
+}
+
+.cta-box h2{
+    margin-bottom: 0;
+}
+
+.cta-box p{
+    margin: 5px;
+}
+.cta-box button{
+    background-color: #3882F6;
+    padding: 10px 10px;
+    border: solid;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px;
+    color: white;
+    padding: 6px 25px
+}
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    padding: 1.5% 25%;
+    color: #F9FAF8;
+}
